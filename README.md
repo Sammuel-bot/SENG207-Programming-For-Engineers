@@ -68,6 +68,31 @@ to switch between male and female voices.
 pip install qrcode[pil] FreeSimpleGUI pyttsx3 pandas numpy matplotlib seaborn
 ```
 
+---
+
+## Project 3 — Tic-Tac-Toe GUI (`p11.py`)
+A fully playable two-player Tic-Tac-Toe game with a graphical interface.
+Handles win detection across all rows, columns, and diagonals.
+
+**Tools:** Python, FreeSimpleGUI
+
+### p9.py — Terminal Version
+A command-line version of the same game built before the GUI version.
+
+---
+
+## Project 4 — Enhanced Text-to-Speech App (`p8.py`)
+An improved version of the TTS app with additional controls for 
+speech rate and volume via sliders, and automatic voice fallback 
+if a selected voice is unavailable on the system.
+
+
+**Tools:** Python, pyttsx3, FreeSimpleGUI
+```
+
+---
+
+
 ## What I Learned
 - Data cleaning and handling missing values with Pandas
 - Exploratory data analysis and visualizing patterns in real datasets
@@ -75,3 +100,7 @@ pip install qrcode[pil] FreeSimpleGUI pyttsx3 pandas numpy matplotlib seaborn
 - Working with external libraries (qrcode, pyttsx3)
 - Using threading to prevent UI freezing during audio playback
 - Structuring Python projects across multiple files
+- Iterative development — improving the same app across multiple versions
+- Game logic implementation (win detection, turn switching)
+- Building interactive GUIs with buttons, sliders, and radio controls
+- Handling edge cases (unavailable voices, occupied board positions)
